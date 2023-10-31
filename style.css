@@ -1,0 +1,67 @@
+/* Diagnostic Styling 
+
+https://fonts.google.com/*/
+
+/* importing open props */
+@import "https://unpkg.com/open-props";
+
+/* importing google fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+
+
+
+/* the * grabs everything 
+* {
+  outline: 1px double gray;
+}*/
+
+main {
+  width: 800px;
+  background: ;
+  margin: 0 auto 0 auto;
+  padding: 32px;
+}
+
+audio {
+  width: 100%;
+}
+
+h1 {
+   text-align: center;
+}
+
+h1:hover {
+  animation: var(--animation-shake-x);
+}
+
+body {
+  background: var(--gradient-25);
+  height: 100vh;
+}
+
+h1 a{
+  font-family: 'Mansalva', sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+h1 a:hover {
+  color: var(--blue-7);
+}
+
+/* snarky ass comments */
+span {
+  color: blue;
+  font-family: 'Mansalva', sans-serif;
+  font-size: 24px;
+  padding: 0px;
+  animation: var(--animation-shake-x);
+  border-radius: var(--radius-blob-1);
+  background: white;
+}
+
+span:hover {
+  display: inline-block;
+  animation: var(--animation-shake-x);
+  
+}
